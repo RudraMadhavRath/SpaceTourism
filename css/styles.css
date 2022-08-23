@@ -1,0 +1,132 @@
+
+body{
+  margin: 0;
+}
+.homepage{
+  left: 0;
+  top: 0;
+  background-image: url(../images/home.jpg);
+  width: 1518.5px;
+  height: 950px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.rectangle{
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  left: 140px;
+  top: 77px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+.nav-bar{
+  position: absolute;
+  top: 40px;
+  width: 1385px;
+  height: 96px;
+  left: 55px;
+}
+.logo-svg{
+  display: inline;
+  padding: 50px 15px 30px;
+}
+.nav-list{
+  float: right;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+  position: absolute;
+  width: 830px;
+  height: 96px;
+  left: 610px;
+  top: 40px;
+  padding:0 37px;
+  margin: 30px 0;
+}
+span{
+  font-weight: bold;
+  padding-right: 10px;
+}
+li{
+  display: inline;
+
+}
+a{
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding:0 20px;
+    border-style: 2px solid;
+    position: relative;
+    top: 35px;
+}
+a:hover {
+  border-bottom: medium solid #EAF6F6;
+  padding-bottom: 20px;
+  transition-duration: 0.15s;
+}
+.division-2{
+  position: absolute;
+  height: 382px;
+  width: 450px;
+  left: 240px;
+  top: 430px;
+  border-radius: 0px;
+
+}
+h3{
+  color: #EAF6F6;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  font-weight: normal;
+  height: 34px;
+  width: 379px;
+  left: 0.5px;
+  top: 0px;
+}
+h1{
+  color: #EAF6F6;
+  font-family: 'Bellefair', serif;
+  font-size: 100px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  height: 140px;
+  width: 445px;
+  top: 58px;
+  margin: 20px 0 25px;
+}
+p{
+  color: #EAF6F6;
+  font-family: 'Barlow', sans-serif;
+  line-height: 2;
+  width: 380px;
+}
+.oval{
+  position: absolute;
+  width: 274px;
+  height: 274px;
+  left: 1140px;
+  top: 550px;
+  background-color:  white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.explore{
+  font-family: 'Bellefair', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 60px;
+}
